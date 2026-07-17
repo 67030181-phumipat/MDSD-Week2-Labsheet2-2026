@@ -740,9 +740,18 @@ class _CounterSectionState extends State<CounterSection> {
 
 **ขั้นตอนที่ 3** บันทึกและทดลองกดปุ่ม +, -, Reset และสลับ Step
 **บันทึกรูปผลการทดลอง**
-```
-บันทึกรูปที่นี่
-```
+
++1 Step
+<img width="1917" height="1008" alt="Screenshot 2026-07-17 151035" src="https://github.com/user-attachments/assets/518bb6ba-e637-44a9-a151-c42b244fcb30" />
+
++5 Step
+<img width="1917" height="1015" alt="Screenshot 2026-07-17 151051" src="https://github.com/user-attachments/assets/33b07a04-1cf3-4c61-a399-968d95d0a814" />
+
++10 Step
+<img width="1917" height="1011" alt="Screenshot 2026-07-17 151105" src="https://github.com/user-attachments/assets/c589b64b-4a6e-4f11-9fac-c12c04bf5818" />
+
+-5 Step
+<img width="1917" height="1015" alt="image" src="https://github.com/user-attachments/assets/66e7cf64-38d8-4059-84c1-c9684e9ee49a" />
 
 
 **✏️ ทดลองแก้ไข F:** ทดลองลบ `setState()` ออก เหลือแค่ `_count += _step` แล้วกดปุ่ม สังเกตว่าตัวเลขไม่เปลี่ยนบนหน้าจอแม้ตัวแปรเปลี่ยน แล้วใส่ `setState()` กลับคืน
