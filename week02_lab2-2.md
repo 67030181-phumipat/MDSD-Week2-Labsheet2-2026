@@ -1482,6 +1482,8 @@ colorScheme: ColorScheme.fromSeed(seedColor: Colors.teal),
 **ขั้นตอนที่ 6** อธิบายผลลัพธ์:
 
 > Hot Reload: สี เปลี่ยนเป็น teal ทันที Counter ไม่เปลี่ยนยังคงเป็น 15 เพราะ Hot reload เพียงแค่ inject โค้ดที่แก้ไขใหม่เขเาไปในแอปที่รันอยู่ แล้วสั่ง rebuild Widget Tree ล่าสุด
+
+
 > Hot Restart: สี ยังเป็น teal เหมือนเดิม Counter เปลี่ยนกลับเป็น 0 เพราะ Hot Restart จะปิดแอปแล้วรันใหม่หมด ตั้งแต่ main() ทำให้ object ถูกทำลายทิ้งและสร้างขึ้นใหม่
 
 ---
