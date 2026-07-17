@@ -1469,20 +1469,20 @@ colorScheme: ColorScheme.fromSeed(seedColor: Colors.teal),
 
 | | หลัง Hot Reload |
 |--|--|
-| สี Theme | |
-| ค่า Counter | |
+| สี Theme | เปลี่ยนเป็น teal |
+| ค่า Counter | 15 |
 
 **ขั้นตอนที่ 5** กด **Hot Restart** (พิมพ์ `R` ใน Terminal หรือกด 🔄)
 
 | | หลัง Hot Restart |
 |--|--|
-| สี Theme | |
-| ค่า Counter | |
+| สี Theme | เป็น teal |
+| ค่า Counter | รีเซ็ตกลับเป็น 0 |
 
 **ขั้นตอนที่ 6** อธิบายผลลัพธ์:
 
-> Hot Reload: สี __________ Counter __________ เพราะ __________
-> Hot Restart: สี __________ Counter __________ เพราะ __________
+> Hot Reload: สี เปลี่ยนเป็น teal ทันที Counter ไม่เปลี่ยนยังคงเป็น 15 เพราะ Hot reload เพียงแค่ inject โค้ดที่แก้ไขใหม่เขเาไปในแอปที่รันอยู่ แล้วสั่ง rebuild Widget Tree ล่าสุด
+> Hot Restart: สี ยังเป็น teal เหมือนเดิม Counter เปลี่ยนกลับเป็น 0 เพราะ Hot Restart จะปิดแอปแล้วรันใหม่หมด ตั้งแต่ main() ทำให้ object ถูกทำลายทิ้งและสร้างขึ้นใหม่
 
 ---
 
