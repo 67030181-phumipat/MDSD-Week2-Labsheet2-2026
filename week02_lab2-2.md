@@ -401,7 +401,7 @@ flutter run
 
 **บันทึกรูปผลการทดลอง**
 
-<img width="1917" height="1012" alt="Screenshot 2026-07-17 135947" src="https://github.com/user-attachments/assets/4388183a-ab79-4bb5-bba6-6fbf00f10045" />
+<img width="1917" height="1010" alt="image" src="https://github.com/user-attachments/assets/096da8ba-4ad5-4635-8a15-7fe598d6aeec" />
 
 ---
 
